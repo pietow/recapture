@@ -22,7 +22,7 @@ app.post('/capture', (req, res) => {
     /* console.log(req.body) */
     const token = req.body['g-recaptcha-response']
     console.log(token)
-    const secret = '6LdpBGoeAAAAAKXfRwyDFf-hjZxzKqOGz1FPGC8Z&'
+    const secret = 'YOUR SECRET KEY GOES HERE!!!'
     fetch('https://www.google.com/recaptcha/api/siteverify?secret='+secret+'&response='+token, {
         method: 'POST',
         headers: {
