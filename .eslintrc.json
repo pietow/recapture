@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "prettier"
+    ],
+    "plugins": [
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": ["error"],
+        "no-console": 0,
+        "no-unused-vars": 1,
+        "no-var": 1,
+        "prefer-const": 1
+    }
+}
